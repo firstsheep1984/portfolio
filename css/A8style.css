@@ -1,0 +1,107 @@
+/* GLOBAL STYLES do not touch this -----------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.clearfix:after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+/*   Yangyang Ma    */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Pacifico');
+header{
+  /* background-color: navy; */
+  padding: 150px 0;
+  text-align: center;
+}
+/* set width and margin for the profile */
+.profile{
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  /* width: 1000px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin:auto; */
+}
+.work-experience{
+  background-color: #fefefc;
+}
+.skills{
+  background-color: rgb(250, 242, 133);
+  color: white;
+}
+.education{
+  background-color: #fefefc;
+}
+.contact{
+  background-color: #101010;
+  color: white;
+}
+body{
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+}
+h1,h2,h3{
+  font-weight: 400;
+  margin: 0;
+}
+h2,h3{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+}
+h2{
+  font-size: 32px;
+  padding-top: 30px;
+}
+.wrapper{
+  max-width:1000px;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin:auto;
+  padding: 60px 0;
+}
+img{
+  float: left;
+  width: 27%;
+  margin-right: 3%;
+  border: solid 1px white;
+  border-radius: 50%;
+  padding: 4%;
+}
+.summary{
+  float: right;
+  width: 70%;
+  text-align: justify;
+}
+.item{
+  border-bottom: solid 1px #ccc;
+}
+.item:last-child{
+  border-bottom: none;
+}
+a{
+  color: #16a085;
+}
+.profile h2{
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #16a085;
+  transform: rotate(-6deg);
+}
+#nav{
+  background-color:#16a085;
+}
