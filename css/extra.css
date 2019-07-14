@@ -40,6 +40,11 @@
     color: #16a085;
 }
 
+.work-experience em {
+    padding-left: 20px;
+    text-align: center;
+}
+
 
 /* SKILLS
 ----------*/
@@ -99,6 +104,14 @@
 
 .education h4 {
     color: #16a085;
+}
+
+.education h3 {
+    font-size: 1.5rem;
+}
+
+.education h2 {
+    padding-bottom: 10px;
 }
 
 
