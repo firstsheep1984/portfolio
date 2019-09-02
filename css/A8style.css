@@ -57,7 +57,7 @@ header {
 body {
     font-family: 'Merriweather', serif;
     line-height: 1.5;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50%;
@@ -137,6 +137,26 @@ a {
 
 #nav {
     background-color: #16a085;
+}
+
+.navbar-nav {
+  		
+  	&__link {
+			display: block;
+    	color: #ddd; 
+    	text-decoration: none;
+    	padding: 1em;
+			font-weight: 400;
+			
+			&:hover {
+				background-color: #aaa;
+			}
+		
+		   &.active {
+		   	color: white;
+				 background-color: rgba(0,0,0,0.1);
+		   }
+  	}
 }
 
 ul.navbar-nav ml-auto a {
